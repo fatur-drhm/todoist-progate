@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todoist-progate/static/css/main.7b9acdd6.css",
+    "main.js": "/todoist-progate/static/js/main.2f70590f.js",
+    "index.html": "/todoist-progate/index.html",
+    "main.7b9acdd6.css.map": "/todoist-progate/static/css/main.7b9acdd6.css.map",
+    "main.2f70590f.js.map": "/todoist-progate/static/js/main.2f70590f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b9acdd6.css",
+    "static/js/main.2f70590f.js"
+  ]
+}
