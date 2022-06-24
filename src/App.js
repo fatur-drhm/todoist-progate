@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ToDoList from "./components/ToDoList";
+import moment from "moment";
 
 function App() {
+  const dateTime = new Date();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ul class="floatingBoxes">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div className="todo-app">
+        <div className="date-container">
+          <p className="date">{moment(dateTime).format("DD MMMM YYYY")}</p>
+          <p className="date">{moment(dateTime).format("dddd, h:mm:ss A")}</p>
+        </div>
+        <ToDoList />
+      </div>
     </div>
   );
 }
